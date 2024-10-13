@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/Pages/bottomNav.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../widgets/widget_support.dart';
 import 'detail_page.dart';
 

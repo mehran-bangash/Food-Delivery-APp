@@ -1,12 +1,6 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/services/shared_prefence.dart';
 import 'package:food_delivery_app/widgets/widget_support.dart';
-import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:http/http.dart' as http;
-import 'package:path/path.dart';
-
-import 'app_constant.dart';
 
 class Wallet extends StatefulWidget {
   const Wallet({super.key});
