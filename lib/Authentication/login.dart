@@ -1,8 +1,4 @@
-import 'dart:math';
-
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Authentication/forgotPassword.dart';
 import 'package:food_delivery_app/Authentication/signup.dart';
@@ -115,7 +111,7 @@ class _SigninState extends State<Signin> {
                           borderRadius: BorderRadius.circular(20)),
                       child: Padding(
                         padding:
-                        const EdgeInsets.only(top: 30, left: 20, right: 20),
+                            const EdgeInsets.only(top: 30, left: 20, right: 20),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -177,8 +173,8 @@ class _SigninState extends State<Signin> {
                                 TextButton(
                                   style: ButtonStyle(
                                     overlayColor:
-                                    WidgetStateProperty.all<Color>(
-                                        Colors.orangeAccent),
+                                        WidgetStateProperty.all<Color>(
+                                            Colors.orangeAccent),
                                   ),
                                   child: Text(
                                     textAlign: TextAlign.end,
@@ -193,7 +189,7 @@ class _SigninState extends State<Signin> {
                                         context,
                                         MaterialPageRoute(
                                           builder: (context) =>
-                                          const ForgotPassword(),
+                                              const ForgotPassword(),
                                         ));
                                   },
                                 ),
@@ -209,12 +205,12 @@ class _SigninState extends State<Signin> {
                                 child: ElevatedButton(
                                     style: ButtonStyle(
                                       backgroundColor:
-                                      WidgetStateProperty.all<Color>(
+                                          WidgetStateProperty.all<Color>(
                                         const Color(0xFFff5730),
                                       ),
                                       overlayColor:
-                                      WidgetStateProperty.all<Color>(
-                                          Colors.orangeAccent),
+                                          WidgetStateProperty.all<Color>(
+                                              Colors.orangeAccent),
                                     ),
                                     child: Text(
                                       textAlign: TextAlign.end,

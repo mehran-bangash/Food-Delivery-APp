@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class DatabaseMethod {
   Future<void> adduserDetail(String id, Map<String, dynamic> userinfo) async {

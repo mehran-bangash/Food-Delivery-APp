@@ -140,7 +140,7 @@ class _WalletState extends State<Wallet> {
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Color(0xFFf2f2f2)),
                   child: const Text(
-                    "\$" + "500",
+                    "\$" "500",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 16,
@@ -154,7 +154,7 @@ class _WalletState extends State<Wallet> {
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Color(0xFFf2f2f2)),
                   child: const Text(
-                    "\$" + "1000",
+                    "\$" "1000",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 16,
@@ -168,7 +168,7 @@ class _WalletState extends State<Wallet> {
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Color(0xFFf2f2f2)),
                   child: const Text(
-                    "\$" + "2000",
+                    "\$" "2000",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 16,

@@ -33,7 +33,7 @@ class _AdminHomeState extends State<AdminHome> {
                 Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => AdminFood(),
+                      builder: (context) => const AdminFood(),
                     ));
               },
               child: Material(

@@ -46,7 +46,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
   void initState() {
     super.initState();
     focusNode.addListener(
-          () {
+      () {
         setState(() {
           showPrefixIcon = !focusNode.hasFocus;
         });
@@ -107,6 +107,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                   } else {
                     null;
                   }
+                  return null;
                 },
                 focusNode: focusNode,
                 style: const TextStyle(color: Colors.white),
@@ -115,9 +116,9 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                   hintStyle: const TextStyle(fontSize: 16, color: Colors.white),
                   prefixIcon: showPrefixIcon
                       ? const Icon(
-                    Icons.person,
-                    color: Colors.white,
-                  )
+                          Icons.person,
+                          color: Colors.white,
+                        )
                       : null,
                   border: const OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -138,7 +139,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                     Colors.white,
                   ),
                   overlayColor:
-                  WidgetStateProperty.all<Color>(Colors.orangeAccent),
+                      WidgetStateProperty.all<Color>(Colors.orangeAccent),
                 ),
                 child: Text(
                   textAlign: TextAlign.end,

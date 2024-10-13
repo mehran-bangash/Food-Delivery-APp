@@ -543,7 +543,7 @@ class _HomeState extends State<Home> {
                     )
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
                 Row(
@@ -679,7 +679,7 @@ class _HomeState extends State<Home> {
                   width: 70,
                   decoration: BoxDecoration(
                     color: iceCream ? Colors.black : Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
                   ),
                   child: Image.asset(
                     "assets/images/ice-cream.png",
@@ -704,7 +704,7 @@ class _HomeState extends State<Home> {
                   width: 70,
                   decoration: BoxDecoration(
                     color: pizza ? Colors.black : Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
                   ),
                   child: Image.asset(
                     "assets/images/pizza.png",
@@ -730,7 +730,7 @@ class _HomeState extends State<Home> {
                   width: 70,
                   decoration: BoxDecoration(
                     color: salad ? Colors.black : Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
                   ),
                   child: Image.asset(
                     "assets/images/salad.png",
@@ -756,7 +756,7 @@ class _HomeState extends State<Home> {
                   width: 70,
                   decoration: BoxDecoration(
                     color: burger ? Colors.black : Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
                   ),
                   child: Image.asset(
                     "assets/images/burger.png",
